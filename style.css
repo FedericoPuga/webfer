@@ -1,0 +1,770 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* header */
+
+nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
+.navbar-brand img {
+    margin-left: 50px;
+}
+
+.navbar-expand-sm .navbar-collapse {
+    justify-content: space-around;
+}
+
+.navbar-toggler {
+    margin-right: 50px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: green;
+    margin-left: 20px;
+    transition: all 0.5s;
+}
+
+.navbar-dark .navbar-nav .nav-link i {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+/* main */
+/* hero */
+main .hero .foto {
+    background-image: url(/img/img-hero2.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+main .hero .texto_hero {
+    text-align: center;
+    padding-top: 190px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.texto_hero h4 {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.1em rgb(59, 59, 59);
+}
+
+.texto_hero button {
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: green;
+    border: transparent;
+    transition: 0.5s all;
+}
+
+.texto_hero button:hover {
+    background-color: white;
+    color: green;
+}
+
+.texto_hero h4:hover {
+    font-weight: bold;
+}
+
+/* nosotrosssss */
+.texto_nosotros {
+    text-align: center;
+    padding: 1%;
+}
+
+#nosotros i {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+.texto_nosotros h2 {
+    font-size: 3rem;
+    color: black;
+    font-weight: bold;
+}
+
+.texto_nosotros h3 {
+    font-size: 1rem;
+    color: green;
+}
+
+.nosotros_contenido {
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+}
+
+.nosotros_cont1 h5 {
+    text-align: right;
+    margin: 50px;
+}
+
+.nosotros_cont1 span {
+    color: green;
+    background-color: transparent;
+    border-radius: 100px;
+    padding: 12px 2px 12px 2px;
+    border: 4px green solid;
+    margin: 5px;
+}
+
+.nosotros_cont2 .foto {
+    background-image: url(/img/img-hero.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros_cont3 p {
+    margin-right: 100px;
+    margin-left: 50px;
+    /* padding: 0px 20px 0px 20px; */
+}
+
+/* comprarrrrr */
+#comprar {
+    margin-top: 100px;
+    padding: 40px 20px 40px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+#comprar h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#comprar h2 span {
+    color: green;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#comprar h3 {
+    margin-left: 100px;
+    font-size: 1.5rem;
+}
+
+#comprar span {
+    font-size: 1.2rem;
+    color: green;
+}
+
+#comprar i {
+    margin-right: 20px;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+/* PRODUCTOOOOOOOOOS */
+#productos {
+    display: flex;
+    justify-content: center;
+    border: solid green 4px;
+    margin: 100px 200px 100px 200px;
+    background-color: green;
+    border-radius: 50px;
+}
+
+.texto_productos {
+    text-align: center;
+}
+
+#productos i {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+#productos h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#productos h3 {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+#productos h4 {
+    color: white;
+}
+
+#productos button {
+    color: rgb(255, 255, 255);
+    margin: 30px 0px 50px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    border: transparent;
+    transition: 0.5s all;
+}
+
+#productos button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* servicioooooooos */
+#servicios {
+    margin-top: 200px 0 50px 0;
+}
+
+.texto_servicios {
+    text-align: center;
+}
+
+#servicios i {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+#servicios h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+#servicios h3 {
+    font-size: 1.5rem;
+    color: green;
+}
+
+.serviciositems {
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    text-align: center;
+    padding: 50px 50px 80px 50px;
+}
+
+.servicio1 {
+    margin: 0 30px 0 30px;
+}
+
+.servicio1 i {
+    font-size: 4rem;
+    margin-top: 0px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+/* GELERIAAAAAAAAA */
+.galeria {
+    background-color: black;
+    padding: 100px;
+}
+
+.texto_galeria h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.texto_galeria h3 {
+    color: green;
+}
+
+.galeria .fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas:
+        "foto1 foto2 foto3"
+        "foto1 foto4 foto4";
+}
+
+.galeria .foto1 {
+    grid-area: foto1;
+    background-color: red;
+    border-radius: 40px;
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+}
+
+.galeria .foto2 {
+    grid-area: foto2;
+    background-color: red;
+    background-size: cover;
+    border-radius: 40px;
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/4.jpg);
+}
+
+.galeria .foto3 {
+    grid-area: foto3;
+    background-color: red;
+    background-size: cover;
+    border-radius: 40px;
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/3.jpg);
+}
+
+.galeria .foto4 {
+    grid-area: foto4;
+    background-color: red;
+    background-size: cover;
+    border-radius: 40px;
+    height: 400px;
+    width: 820spx;
+    background-image: url(/img/5.jpg);
+}
+
+/* boton wppppppppppp */
+.wp_fijo a {
+    font-size: 2.5rem;
+    background-color: rgb(13, 148, 31);
+    padding: 0px 10px 2px 10px;
+    border: rgb(255, 255, 255) solid 2px;
+    color: white;
+    border-radius: 50px;
+    bottom: 120px;
+    right: 20px;
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    text-shadow: 2px 2px 2px rgb(102, 102, 102);
+}
+
+.wp_fijo a i:hover {
+    color: rgb(255, 255, 255);
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+/* --------------------- */
+
+
+/* FOOOOOOOOTERRRRRRRRRRRRRRRRRRRRR */
+#footer {
+    background-color: black;
+    border-top: 3px solid white;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+}
+
+#footer .contacto {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+#footer .contacto h4 {
+    margin-top: 20px;
+    font-size: 2rem;
+    margin: 0px;
+}
+
+#footer .contacto i {
+    margin-top: 20px;
+    color: green;
+    font-size: 1rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+#footer .logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+#footer .logo h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+#footer .logo h3 {
+    color: green;
+}
+
+
+
+#footer .secciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#footer .secciones nav {}
+
+#footer .secciones a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+#footer .secciones li {
+    padding: 10px;
+    list-style: none;
+
+}
+
+#footer .secciones i {
+    color: green;
+}
+
+
+.legales {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.legales p {
+    font-size: 1rem;
+    margin: 0px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* mediaqueries */
+@media only screen and (max-width: 1220px) {
+    .nosotros_contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nosotros_cont1 h5 {
+        text-align: center;
+    }
+
+    .nosotros_cont3 p {
+        padding: 0px;
+        margin: 20px 100px 0px 100px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1460px) {
+    .galeria .fotos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px 20px;
+        grid-template-areas:
+            "foto1 foto2"
+            "foto3 foto4";
+    }
+
+
+    /*  .galeria .fotos{
+        height: 100%;
+        width: 100%;
+    }
+    .galeria .foto1{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .galeria .foto2{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .galeria .foto3{
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .galeria .foto4{
+
+        background-size: cover;
+        background-position: center;    
+    } */
+}
+
+@media only screen and (max-width: 1100px) {
+    .serviciositems {
+        display: grid;
+        grid-column: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-flow: row;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    #comprar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #comprar h3 {
+        margin: 0px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #comprar h2 {
+        text-align: center;
+    }
+
+    #footer .logo {
+        grid-area: logo;
+    }
+
+    #footer .contacto {
+        grid-area: contacto;
+        padding-bottom: 30px;
+    }
+
+    #footer .secciones {
+        grid-area: secciones;
+    }
+
+    #footer {
+        padding-top: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "contacto logo"
+            "secciones secciones";
+    }
+
+    #footer .secciones ul {
+        display: flex;
+    }
+
+    #footer .contacto h4 {
+        font-size: 1rem;
+    }
+
+    #footer .contacto i {
+        font-size: 0.6rem;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .galeria .fotos {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 20px 20px;
+        grid-template-areas:
+            "foto1"
+            "foto2"
+            "foto3"
+            "foto4";
+    }
+
+    H1 {
+        font-size: 3rem;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 0.9rem;
+    }
+
+    #productos {
+        margin: 100px 100px 0px 100px;
+    }
+
+    .nosotros_cont2 .foto {
+        height: 300px;
+        width: 500px;
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .navbar-dark .navbar-nav .nav-link {
+        margin-left: 2px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .navbar-dark .navbar-nav .nav-link {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .navbar-dark .navbar-nav .nav-link {
+        margin: 50;
+        padding: 10px;
+    }
+
+    #productos {
+        margin: 50px 50px 0px 50px;
+    }
+
+    #productos h2 {
+        font-size: 1.6rem;
+    }
+
+    .serviciositems {
+        display: grid;
+        grid-column: 1fr;
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+            "contacto"
+            "logo"
+            "secciones";
+    }
+
+    #footer .logo {
+        padding: 50px 50px 50px 50px;
+    }
+
+    #footer .secciones ul {
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .nosotros_cont2 .foto {
+        height: 200px;
+        width: 300px;
+    }
+
+    H1 {
+        font-size: 2rem;
+    }
+
+    .texto_galeria h2 {
+        font-size: 2rem;
+    }
+
+    .galeria {
+        padding: 20px;
+    }
+
+    .nosotros_cont3 p {
+        padding: 0px;
+        margin: 20px;
+    }
+
+    #servicios h3 {
+        font-size: 1.2rem;
+    }
+
+    #footer .secciones {
+        padding-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 384px) {
+    .nosotros_cont1 span {
+        font-size: 1rem;
+        padding: 4px 11px;
+        border: 3px solid green;
+        margin: 100px;
+        margin-top: 50;
+    }
+}
+
+@media only screen and (max-width: 265px) {
+    .navbar .container-fluid {
+        justify-content: center;
+    }
+
+    .navbar-brand img {
+        margin-left: 0px;
+    }
+
+    .navbar-toggler {
+        margin-right: 0px;
+    }
+
+
+
+}
